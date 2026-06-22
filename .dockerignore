@@ -1,0 +1,7 @@
+.git
+.env
+.env.*
+vendor
+frontend
+node_modules
+*.zip
