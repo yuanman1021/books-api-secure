@@ -6,7 +6,7 @@ use Slim\Factory\AppFactory;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-Dotenv::createImmutable(__DIR__ . '/..')->safeLoad();
+Dotenv::createMutable(__DIR__ . '/..')->safeLoad();
 
 $app = AppFactory::create();
 
